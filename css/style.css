@@ -1,0 +1,606 @@
+html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: var(--white-color);
+ 
+}
+
+/*----- header starts from here -----*/
+
+header {
+    background: var(--primary-color);
+}
+
+header .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+header .flex-box a.sessions {
+    color: var(--white-color);
+    font-size: 19px;
+    letter-spacing: 0px;
+    font-weight: 800;
+    /* font-family: "Brandon Grotesque" !important; */
+    font-family: var(--secondary-font);
+    text-decoration: underline;
+}
+
+header .flex-box h5 {
+    color: var(--white-color);
+    font-size: 29px;
+    font-weight: 400;
+    margin: 0;
+    font-family: var(--primary-font)!important;
+}
+
+
+header .flex-box .flex-child:nth-child(2) {
+    width: 25%;
+}
+
+.flex-child img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(185deg) brightness(104%) contrast(101%);
+}
+
+/*----- header ends here -----*/
+
+/*----- banner starts from here -----*/
+
+section.banner-section {
+    background: var(--primary-color);
+}
+
+.banner-section .top-img {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.banner-section .top-img img {
+    width: 100%;
+}
+
+.bottom-img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top:80px;
+}
+
+.bottom-img img {
+    width: 100%;
+}
+
+/*----- banner ends here -----*/
+
+/*----- human starts from here -----*/
+
+section.human-section {
+    padding: 60px 0px;
+}
+
+.human-section .img-boxes {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.human-section .img-boxes img {
+    width: 100%;
+}
+
+.human-section .description {
+    margin-bottom: 45px;
+}
+
+.content-title {
+    position: relative;
+    z-index: 1;
+}
+
+.content-title:before, 
+ .content-title:after {
+    position: absolute;
+    top: 48%;
+    overflow: hidden;
+    height: 1px;
+    content: ' ';
+    background-color: #979797;
+}
+.content-title:before {
+    left: 2%;
+    text-align: right;
+    width: 17%;
+}
+
+.content-title:after {
+    right: 2%;
+    width: 17%;
+}
+
+section.two-column-section {
+    background: var(--secondary-color);
+    padding: 40px 0px;
+}
+
+.two-column-section .content-title::before {
+    left: 0;
+    width: 38%;
+}
+
+.two-column-section .content-title::after {
+    right: 0%;
+    width: 38%;
+}
+
+.story-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.story-flex .flex-left {
+    width: 50%;
+    padding-right: 9px;
+}
+
+.story-flex .flex-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.story-flex .flex-right img {
+    width: 85%;
+}
+
+.story-flex .flex-left p {
+    text-align: left;
+    line-height: 26px;
+}
+
+.story-flex .flex-left p span {
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.tagline {
+    margin-top: 40px;
+}
+
+.tagline p {
+    text-transform: uppercase;
+    font-family: var(--quaternary-font);
+    font-size: 36px;
+}
+
+/*----- human ends from here -----*/
+
+/*----- Three column starts from here -----*/
+
+section.three-column {
+    padding: 40px 0px;
+}
+
+.three-column .content-title::before {
+    width: 28%;
+    left: 9%;
+}
+
+.three-column .content-title::after {
+    width: 29%;
+    right: 8%;
+}
+
+.works-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.works-flex .work-child {
+    width: 33.333%;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.works-flex .work-child img {
+    width: 46%;
+}
+
+.works-flex .work-child img.imgtwo {
+    width: 65%;
+}
+
+.works-flex .work-child img.imgthree {
+    width: 30%;
+}
+
+.work-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.three-column .section-container {
+    max-width: 900px;
+}
+
+.work-content {
+    margin-top: 20px;
+}
+
+/*----- Three column ends here -----*/
+
+/*----- operting-partner starts from here -----*/
+
+section.operting-partner {
+    background: var(--secondary-color);
+    padding: 40px 0px;
+}
+
+p.partner-tag {
+    font-weight: 600;
+}
+
+.lists-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 40px 0px 0px;
+}
+
+.lists-flex .lists-childs {
+    width: 50%;
+}
+
+.lists-flex .lists-childs p {
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.lists-flex .lists-childs span {
+    margin-right: 10px;
+    background: #9FC4D4;
+    display: inline-flex;
+    text-align: center;
+    padding: 1px 10px;
+    border-radius: 50%;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+.operting-partner .child-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+section.construction-section {
+    padding: 40px 0px;
+}
+
+.construction-section .const-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.construction-section .content-title:before {
+    width: 26%;
+    left: 0;
+}
+
+.construction-section .content-title:after {
+    width: 26%;
+    right: 0;
+}
+
+.construction-section .const-flex .const-left {
+    width: 36%;
+    margin-right: 7%;
+}
+
+.construction-section .const-flex .const-right {
+    width: 57%;
+}
+
+.construction-section .const-flex img {
+    width: 100%;
+}
+
+.construction-section .const-flex p {
+    text-align: left;
+    line-height: 26px;
+}
+
+.construction-section .const-flex p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.planning-img img {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: -45px;
+}
+
+
+/*----- operting-partner ends here -----*/
+
+
+/*----- .training starts from here -----*/
+section.training {
+    background: var(--secondary-color);
+    padding: 40px 0px;
+}
+
+.traing-img {
+    text-align: center;
+    width: 110px;
+    margin: 0 auto;
+}
+
+.traing-img img {
+    width: 100%;
+}
+
+.training .content-title::before {
+    width: 28%;
+}
+
+.training .content-title::after {
+    width: 28%;
+}
+
+.training .content-title {
+    margin-bottom: 20px;
+}
+
+.training .child-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.training .child-box span {
+    width: 7px;
+    height: 7px;
+    padding: 0;
+    margin-top: 7px;
+}
+
+/*----- training ends here -----*/
+
+
+/*----- form section starts from here -----*/
+
+section.form-section {
+    padding: 40px 0px 100px;
+}
+
+.form-section .section-container {
+    max-width: 820px;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-child label {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: var(--tertiary-color);
+    font-weight: 600;
+    font-family: var(--primary-font);
+    margin-bottom: 2px;
+}
+
+.form-section form {
+    margin-top: 40px;
+}
+
+.form-section p.partner-tag {
+    font-weight: 300;
+}
+
+
+.form-section .col-left {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.form-section .col-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-child.first-name {
+    margin-right: 3%;
+}
+
+.form-child.emails {
+    width: 100%;
+}
+
+.form-child.s-address {
+    width: 100%;
+    padding-right: 3%;
+}
+
+.form-child.states {
+    width: 100%;
+    padding-left: 3%;
+}
+
+.form-child.country {
+    margin-right: 3%;
+}
+
+.form-child.cashes {
+    width: 100%;
+    padding-left: 3%;
+    margin-top: -21px;
+}
+
+.form-child.worthes {
+    width: 47%;
+    margin-right: 3%;
+}
+
+.form-child.times {
+    width: 47%;
+}
+
+.form-child.intersts {
+    width: 100%;
+}
+
+.form-child.urls {
+    width: 100%;
+    padding-right: 3%;
+}
+
+.form-child.ads {
+     width: 100%;
+}
+
+.form-child.messages {
+    width: 100%;
+}
+
+.row-flex textarea {
+    min-height: 100px;
+}
+
+.row-flex input::placeholder,
+.row-flex select,
+.row-flex textarea::placeholder {
+    color: #aaafb2;
+    font-weight: 600;
+}
+.row-flex textarea{
+resize: none;
+}
+
+.row-flex input,
+.row-flex select,
+.row-flex textarea{
+    border: 1px solid #aaafb2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.primary-cta.more {
+    max-width: 295px;
+}
+
+.primary-cta.sub {
+    max-width: 231px;
+}
+
+.form-section .content-title::before {
+    width: 36%;
+}
+
+.form-section .content-title::after{
+    width: 36%;
+}
+
+/*----- form ends here -----*/
+
+/*----- footer section starts from here -----*/
+
+section.footer {
+    background: var(--primary-color);
+    padding: 40px 0px;
+}
+
+section.footer .section-container {
+    max-width: 1000px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 18%;
+    margin-right: 2%;
+}
+
+.footer-right {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-right ul li {
+    list-style: none;
+    color: var(--white-color);
+    font-family: "Brandon Grotesque";
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 31px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.social-media a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.social-media a img {
+    width: 100%;
+}
+
+.social-media a:not(:last-child) {
+    margin-right: 15px;
+}
+
+/*----- footer ends from here -----*/

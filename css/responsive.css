@@ -1,0 +1,265 @@
+
+@media (max-width: 991px){
+    .form-section .col-right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .form-section .col-left {
+        width: 100%;
+    }
+
+    .form-child.first-name {
+        margin-right: 0;
+    }
+
+    .form-child{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-child.s-address {
+        padding-right: 0;
+    }
+
+    .form-child.country {
+        margin-right: 0;
+    }
+
+    .form-child.cashes {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .form-child.states {
+        padding-left: 0;
+    }
+
+
+    .form-child label br{
+        display: none;
+    }
+
+    .form-child.worthes {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .form-child.times {
+        width: 100%;
+    }
+
+    .form-child.urls {
+        padding-right: 0;
+    }
+
+    section.form-section {
+        padding: 40px 0px 40px;
+    }
+
+    
+    .row-flex{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 768px){
+    h1 {
+        font-size: 38px;
+    }
+    section.human-section {
+        padding: 40px 0px;
+    }
+    .content-title:before, 
+    .content-title:after{
+        display: none;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .human-section .description {
+        margin-bottom: 19px;
+    }
+
+    .story-flex .flex-left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .story-flex .flex-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .story-flex .flex-left p {
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .tagline p {
+        font-size: 25px;
+    }
+
+    .tagline {
+        margin-top: 19px;
+    }
+
+    .banner-section .top-img{
+        padding-top: 97px;
+    }
+
+    section.two-column-section{
+        padding: 20px 0px;
+    }
+
+    .story-flex {
+        margin: 0px 0px 20px;
+    }
+
+    section.three-column {
+        padding: 20px 0px;
+    }
+
+    .works-flex {
+        margin: 10px 0px;
+    }
+
+    .works-flex .work-child {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .works-flex .work-child img.imgthree {
+        width: 17%;
+    }
+
+    .works-flex .work-child img.imgtwo {
+        width: 34%;
+    }
+    .works-flex .work-child img {
+        width: 26%;
+    }
+
+    .work-content h3 {
+        font-size: 17px;
+    }
+
+    .work-content h3 br {
+        display: none;
+    }
+
+    .primary-cta.more {
+        max-width: 212px;
+    }
+
+    .lists-flex .lists-childs {
+        width: 100%;
+    }
+
+    section.operting-partner {
+        padding: 20px 0px;
+    }
+
+    .lists-flex {
+        margin: 20px 0px 0px;
+    }
+
+    .lists-flex .lists-childs p br {
+        display: none;
+    }
+
+    .construction-section .const-flex .const-right {
+        width: 100%;
+    }
+
+    .construction-section .const-flex .const-left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .construction-section .const-flex p br{
+        display: none;
+    }
+
+    .planning-img img {
+        margin-left: 0px;
+    }
+
+    section.construction-section {
+        padding: 20px 0px;
+    }
+
+    .construction-section .const-flex{
+        margin-top: 10px;
+    }
+
+    .traing-img {
+        width: 90px;
+    }
+
+    .training .content-title {
+        margin-bottom: 0;
+    }
+
+    .footer-right {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-right ul {
+        margin: 10px 0px;
+        width: 100%;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+        margin-bottom: 31px;
+    }
+
+}
+
+@media(max-width: 480px){
+    h1 {
+        font-size: 23px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    .primary-cta {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header .flex-box a.sessions{
+        font-size: 10px;
+    }
+
+    header .flex-box h5{
+        font-size: 14px;
+    }
+
+    header .flex-box {
+        padding: 5px 0px;
+    }
+}
